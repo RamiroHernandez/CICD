@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppGlobalOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+    <certificate>MIIDkTCCAnmgAwIBAgIUObQ8SV9ejui0QDE/6NU7Uxm1N/YwDQYJKoZIhvcNAQEL
+BQAwWDELMAkGA1UEBhMCTVgxEDAOBgNVBAgMB0phbGlzY28xEDAOBgNVBAcMB1ph
+cG9wYW4xDTALBgNVBAoMBFNvbHUxFjAUBgNVBAMMDXdlYXJlc29sdS5jb20wHhcN
+MjYwMzAzMjAyNTA0WhcNMjgwMzAyMjAyNTA0WjBYMQswCQYDVQQGEwJNWDEQMA4G
+A1UECAwHSmFsaXNjbzEQMA4GA1UEBwwHWmFwb3BhbjENMAsGA1UECgwEU29sdTEW
+MBQGA1UEAwwNd2VhcmVzb2x1LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAOEoj9lAVKeShF1DAI5BWGG02UVXb+MhamS9SxeL2m4SEtTC6e0y3784
+97rll2Jvo9/a8c4FLIhVc2wElnMX+2+FkdiLppZqtc7hLNH/y2O7L67dPtBxn5FI
++YDMfUOWVyRU+wkjbqmBqCAJ12pVpWPtoBvSypGD3YOSdWLVCRh2SXBiCdJ3u6lV
+GOtcPIVgHJARQRC5YOJQ32b86l5BRwJ/ZkjC5mYU9ypoawOhXmwJJea/W5kr9YOc
+Y7hYgZrhkff6wCl6EFq6m35PWqrN+vYqO+XWJejKMVyMYVi0yAdwcQdJlAmd9AD7
+zGqFEoez71xFeeTsIASFlU8EujV4mfECAwEAAaNTMFEwHQYDVR0OBBYEFI5H0ZYR
+y1NchuivVahrFZDqrYtwMB8GA1UdIwQYMBaAFI5H0ZYRy1NchuivVahrFZDqrYtw
+MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABTEXRlY12Eq+xHx
+2bWAtwuDyCrR0S8H1OfuwHlOg34D29Elk01ZNAoawCinP0vXBpmzTJyBiIUw8LIz
++UMsuw8mRxQOAr+OgVZBHDyr9o9l48+YlLFToVXCS1NTptiNpNHg3EvYllv2T3HN
+05xpfH8B5pER08uKU8j6bY/blkRBbAqj4iZWfMGB1gEPtLFXugEpBx5s3exd4JaB
+gADvvDHuLZo0rKzLjX+lnOgpwdumtxSLt21icKhN1l8ytPlwiOg3vCR+uyFHnunN
+vwYJgChKmZkfzoo3q7ko5v9kPNrEfQpJ0ovN+UjKsPJIE9OPbku1V3NsyWktpsdy
+WgpBqao=</certificate>
+    <consumerKey>3MVG9SM6_sNwRXqsSpmpcnlpbDBSFAzJTiC5uRB8y6lS_B0eetp7qeBb3osK8YMlh_JCcqJZZkmAsMSLSiFpx</consumerKey>
+    <externalClientApplication>SOLU_CI_CD</externalClientApplication>
+    <isClientCredentialsFlowEnabled>false</isClientCredentialsFlowEnabled>
+    <isCodeCredFlowEnabled>false</isCodeCredFlowEnabled>
+    <isCodeCredPostOnly>false</isCodeCredPostOnly>
+    <isConsumerSecretOptional>false</isConsumerSecretOptional>
+    <isDeviceFlowEnabled>false</isDeviceFlowEnabled>
+    <isIntrospectAllTokens>false</isIntrospectAllTokens>
+    <isNamedUserJwtEnabled>true</isNamedUserJwtEnabled>
+    <isPkceRequired>false</isPkceRequired>
+    <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+    <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+    <isSecretRequiredForTokenExchange>true</isSecretRequiredForTokenExchange>
+    <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+    <label>SOLU_CI_CD_glbloauth</label>
+    <shouldRotateConsumerKey>false</shouldRotateConsumerKey>
+    <shouldRotateConsumerSecret>false</shouldRotateConsumerSecret>
+</ExtlClntAppGlobalOauthSettings>

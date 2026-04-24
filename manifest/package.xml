@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>SOLU_CI_CD</members>
+        <name>ExternalClientApplication</name>
+    </types>
+    <types>
+        <members>SOLU_CI_CD_plcy</members>
+        <name>ExtlClntAppConfigurablePolicies</name>
+    </types>
+    <types>
+        <members>SOLU_CI_CD_glbloauth</members>
+        <name>ExtlClntAppGlobalOauthSettings</name>
+    </types>
+    <types>
+        <members>SOLU_CI_CD_oauthPlcy</members>
+        <name>ExtlClntAppOauthConfigurablePolicies</name>
+    </types>
+    <types>
+        <members>SOLU_CI_CD_oauth</members>
+        <name>ExtlClntAppOauthSettings</name>
+    </types>
+    <types>
+        <members>SOLU_CI_CD_Deployment</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>65.0</version>
+</Package>

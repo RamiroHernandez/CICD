@@ -1,0 +1,11 @@
+# Sensitive credentials — never commit
+Credenciales.md
+JWT/
+*.key
+*.crt
+*.p12
+*.pem
+
+# Salesforce DX
+.sfdx/
+.sf/

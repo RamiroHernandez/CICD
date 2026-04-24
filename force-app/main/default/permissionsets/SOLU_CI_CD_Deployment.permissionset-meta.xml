@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grants JWT auth access to SOLU_CI_CD and metadata deployment rights for the Release Manager integration user</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SOLU CI CD Deployment</label>
+    <connectedAppAccesses>
+        <connectedApp>SOLU_CI_CD</connectedApp>
+        <enabled>true</enabled>
+    </connectedAppAccesses>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ModifyMetadata</name>
+    </userPermissions>
+</PermissionSet>
