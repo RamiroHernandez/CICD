@@ -3,10 +3,6 @@
     <description>Grants JWT auth access to SOLU_CI_CD and metadata deployment rights for the Release Manager integration user</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>SOLU CI CD Deployment</label>
-    <connectedAppAccesses>
-        <connectedApp>SOLU_CI_CD</connectedApp>
-        <enabled>true</enabled>
-    </connectedAppAccesses>
     <userPermissions>
         <enabled>true</enabled>
         <name>ApiEnabled</name>
@@ -14,5 +10,13 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ModifyMetadata</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetup</name>
     </userPermissions>
 </PermissionSet>

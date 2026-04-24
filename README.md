@@ -14,9 +14,9 @@ automated deployments.
 | `force-app/.../externalClientApps/SOLU_CI_CD.eca-meta.xml` | ExternalClientApplication | The connected app identity |
 | `force-app/.../extlClntAppGlobalOauthSets/SOLU_CI_CD_glbloauth.ecaGlblOauth-meta.xml` | ExtlClntAppGlobalOauthSettings | JWT flow enabled, certificate attached |
 | `force-app/.../extlClntAppOauthSettings/SOLU_CI_CD_oauth.ecaOauth-meta.xml` | ExtlClntAppOauthSettings | OAuth scopes (Api, Web, RefreshToken) |
-| `force-app/.../extlClntAppOauthPolicies/SOLU_CI_CD_oauthPlcy.ecaOauthPlcy-meta.xml` | ExtlClntAppOauthConfigurablePolicies | AdminApprovedUsers, IP relaxed, 365-day token |
+| `force-app/.../extlClntAppOauthPolicies/SOLU_CI_CD_oauthPlcy.ecaOauthPlcy-meta.xml` | ExtlClntAppOauthConfigurablePolicies | AllSelfAuthorized, IP: Enforce, 365-day token — change permitted users to AdminApproved via App Manager post-deploy |
 | `force-app/.../extlClntAppPolicies/SOLU_CI_CD_plcy.ecaPlcy-meta.xml` | ExtlClntAppConfigurablePolicies | App + OAuth plugin enabled |
-| `force-app/.../permissionsets/SOLU_CI_CD_Deployment.permissionset-meta.xml` | PermissionSet | ApiEnabled + ModifyMetadata + connected app access |
+| `force-app/.../permissionsets/SOLU_CI_CD_Deployment.permissionset-meta.xml` | PermissionSet | ApiEnabled + ModifyMetadata |
 | `scripts/apex/create-release-manager.apex` | Apex anonymous script | Creates the Release Manager integration user |
 | `manifest/package.xml` | Package manifest | All components above |
 | `JWT/server.key` | RSA private key | Used to sign JWT tokens — **never commit, never share** |
